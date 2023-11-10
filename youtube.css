@@ -1,0 +1,198 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Roboto:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+
+html,body{
+    font-family: "Roboto","sans-serif";
+    font-weight: 300;
+    line-height: 1.4;
+}
+
+header{
+    position:fixed;
+    z-index: 50;
+    top: 0;
+    background-color: white;
+    width: 100%;
+    scroll-behavior: smooth;
+    padding-bottom: 10px;
+    margin-left: 100px;
+}
+
+nav{
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.container{
+    display: flex;
+   
+}
+
+.main-container{
+    width: 100%;
+}
+.center-nav{
+    display: flex;
+    max-height: 50px;
+}
+
+.logo img{
+ width: 150px;
+ margin-left: 20px;
+}
+
+.center-nav input{
+    width: 600px;
+    border: 1px solid #ccc;
+}
+
+.center-nav button{
+    width: 40px;
+}
+
+.center-nav .mic img{
+    background-color: #ccc;
+    border: 1px solid #ccc;
+    border-radius: 15px;
+    margin-left: 20px;
+    margin-top: 10px;
+    width: 30px;
+}
+
+.center-nav .mic img:hover{
+    cursor: pointer;
+}
+
+.side-nav{
+margin-right: 150px;
+}
+
+.side-nav i img{
+margin-left: 20px;
+}
+
+.side-nav i:hover{
+    cursor: pointer;
+}
+
+.functions{
+    border-top: 2px solid #ccc;
+    display: flex;
+    gap: 20px;
+    font-size: 22px;
+    margin-left: 20px;
+    border-radius: 10px;
+}
+.functions div{
+    margin-top: 10px;
+    border: 2px solid #ccc;
+    border-radius: 20px;
+    padding: 10px 20px;
+}
+.functions .functions-dark{
+    background-color: black;
+    color: white;
+}
+.functions .functions-gray{
+    background-color: #ccc;
+}
+aside{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding: 10px 20px;
+   text-align: justify;
+   position:fixed;
+   background-color: white;
+   height: 100%;
+}
+
+.bars{
+    margin-top: 20px;
+}
+.bars-func{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+    gap: 30px;
+}
+
+.barsfunc-cont img{
+    width: 35px;
+}
+
+.barsfunc-cont p{
+    font-size: 18px;
+}
+
+.barsfunc-cont img:hover{
+    cursor: pointer;
+}
+
+.functions:hover{
+    cursor: pointer;
+}
+
+.bars img:hover{
+    cursor: pointer;
+}
+
+main{
+    min-height: 100vh;
+    background-color: white;
+    margin-top: 10px;
+    padding: 10px;
+}
+
+.card-container{
+    margin-top: 150px;
+    display: grid;
+    grid-template-columns:repeat(auto-fit,minmax(320px,1fr)) ;
+    margin-left: 100px;
+    padding-left: 50px;
+}
+
+.card{
+    padding-left: 10px;
+    width: 320px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+
+.avatar-content{
+    display: flex;
+}
+
+.content h3{
+    font-size: 14px;
+}
+
+.content-status{
+    display: flex;
+    gap: 20px;
+}
+
+.content{
+    margin-left: 10px;
+}
+
+.dots{
+    margin-left: 10px;
+}
+
+@media screen and (max-width:1250px){
+   .container{
+    width: 1200px;
+   }
+}
+
+
+
